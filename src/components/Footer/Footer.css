@@ -1,0 +1,23 @@
+.footer {
+  background-color: #161619;
+  height: 75px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+a {
+  color: white;
+}
+
+.social-button {
+  cursor: pointer;
+}
+
+.social-button:hover {
+  color: #e6e9ee;
+  transform: translateY(-1px);
+}

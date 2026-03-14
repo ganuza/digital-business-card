@@ -1,0 +1,49 @@
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:focus {
+  outline: 2px solid #61dafb;
+  outline-offset: 2px;
+}
+
+.email:hover {
+  /* background: #3a3f47; */
+  background-color: #e6e9ee;
+}
+
+.email {
+  background-color: white;
+  color: #282d35dd;
+}
+
+.linkedin {
+  background-color: #5093e2;
+  color: white;
+}
+
+.linkedin:hover {
+  background-color: #3d7fcc;
+}
