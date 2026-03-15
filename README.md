@@ -7,7 +7,7 @@ The card displays personal information, contact links, and social profiles in a 
 
 ## Live Demo
 
-https://adrianz-dev-card.netlify.app
+https://card.adrianz.dev
 
 ## About
 
