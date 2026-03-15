@@ -1,6 +1,6 @@
 # Digital Business Card
 
-[![Digital Business Card Preview](./digital-business-card-preview.png)](https://adrianz-dev-card.netlify.app)
+[![Digital Business Card Preview](./public/digital-business-card-preview.png)](https://card.adrianz.dev)
 
 A simple digital business card built with React and Vite.  
 The card displays personal information, contact links, and social profiles in a clean UI layout.
