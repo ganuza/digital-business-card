@@ -14,3 +14,7 @@
   margin: 0;
   text-decoration: none;
 }
+
+.website-address:hover {
+  color: grey;
+}

@@ -11,7 +11,7 @@ function Info() {
         rel="noopener noreferrer"
         className="website-address"
       >
-        Portfolio Site
+        www.adrianz.dev
       </a>
     </section>
   );
