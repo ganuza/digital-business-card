@@ -1,9 +1,18 @@
 import './Buttons.css';
-import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaAddressCard, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Buttons() {
   return (
     <section className="buttons section">
+      <a
+        href="/adrian-zabolitzki.vcf"
+        download="Adrian-Zabolitzki.vcf"
+        className="contact button"
+      >
+        <FaAddressCard />
+        Save Contact
+      </a>
+
       <a href="mailto:adrianzab@gmail.com" className="email button">
         <FaEnvelope />
         Email
