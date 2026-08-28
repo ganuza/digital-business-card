@@ -3,8 +3,8 @@ import { FaAddressCard, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Buttons() {
   return (
-    <section className="buttons section">
-      <article>
+    <section className="section">
+      <article className="buttons">
         <a
           href="/adrian-zabolitzki.vcf"
           download="Adrian-Zabolitzki.vcf"
@@ -14,7 +14,7 @@ function Buttons() {
           Save Contact
         </a>
       </article>
-      <article>
+      <article className="buttons">
         <a href="mailto:adrianzab@gmail.com" className="email button">
           <FaEnvelope />
           Email

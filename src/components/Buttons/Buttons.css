@@ -47,3 +47,9 @@
 .linkedin:hover {
   background-color: #3d7fcc;
 }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
